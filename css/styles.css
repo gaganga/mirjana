@@ -326,7 +326,7 @@ Waypoints
 .delay-25s { animation-delay: 2.5s; -webkit-animation-delay: 2.5s; }
 .delay-3s { animation-delay: 3s; -webkit-animation-delay: 3s; }
 .delay-35s { animation-delay: 3.5s; -webkit-animation-delay: 3.5s; }
-.wp3 { background: url('../img/iphone-bg.png') no-repeat center center; background-position: 200px 10px; height: 100%; }
+.wp3 { background: url('../img/intro-img.jpg') no-repeat top left; height: 100%; background-size: cover; }
 
 
 
