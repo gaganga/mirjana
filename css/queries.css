@@ -1,5 +1,6 @@
 /* 320px (iPhone) */
-@media screen and (max-width:320px) {
+@media screen and (max-width:360px) {
+	.features { padding-top: 360px; }
 }
 /* 480px (WVGA - Low End Windows Phone) */
 @media screen and (max-width:480px) {
@@ -9,6 +10,8 @@
 	.wp2, .wp4, .wp5, .light-box { margin-bottom: 30px; }
 	.legals { text-align: center; margin: 0; padding: 0; }
 	.credit { text-align: center; }
+	.designs { background: #f3f5f8; padding-bottom: 20px; }
+	.grid figure { margin: 10px auto; float: none; }
 }
 /* xGA iPad */
 @media screen and (max-width:1024px) {
@@ -18,7 +21,7 @@
 }
 /* 1200px (Small Desktop, Netbook) */
 @media screen and (max-width:1280px) {
-	.wp3 { background-position: 50px 0; }
+	.wp3 { background-position: 0; }
 }
 /* Bootstrap 990px Breakpoint to 480px */
 @media screen and (min-width:480px) and (max-width:991px) {
@@ -28,4 +31,10 @@
 	.wp2, .wp4, .wp5, .light-box { margin-bottom: 30px; }
 	.legals { text-align: center; margin: 0; padding: 0; }
 	.credit { text-align: center; }
+}
+/* Bootstrap 990px Breakpoint to 480px */
+@media screen and (max-width:991px) {
+	footer p { text-align: center; }
+	.first-banner-img { display: none; }
+	.videos-section { padding-top: 0; }
 }
