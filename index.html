@@ -1,438 +1,677 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Mirjana Savic</title>
-  <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Calligraffitti' rel='stylesheet' type='text/css'>
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-  <link href="css/flexslider.css" rel="stylesheet" >
-  <link href="css/styles.css" rel="stylesheet">
-  <link href="css/queries.css" rel="stylesheet">
-  <link href="css/animate.css" rel="stylesheet">
-  <link href="css/videos.css" rel="stylesheet">
-  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  <body id="top">
+<!DOCTYPE HTML>
+<!--
 
-    <header id="home">
-      <section class="hero" id="hero">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-8 col-md-offset-2 text-center inner">
-              <h1 class="animated fadeInDown">Mirjana Savic</h1>
-              <p class="animated fadeInUp delay-05s">Siempre Tango</p>
-            </div>
-          </div>
-        </div>
-      </section>
-    </header>
+                                          `::..   .
+                           `?XXX.  `T{/:.   %X/!!x "?x.
+                             "4{7@( '!+!!X(:.`4!!X!x.?h7h
+                         `!(:. ~!!!f(~!!!+!!{{.'~+h!tX!!?hh:.
+                    '`X!.  !(d!X!!H!?{{``"!:?{{!{X*!?tX!!H*))h.
+                  ...  '!X(!X!{{?@f!!!{!{x.!!%!!!%!!!)@Thh!!X)!).
+                   ^!!!{:!(((!!: ~((({!!!h+!{{!X!+%?+{!!?!+)!+X(!+
+               -    `\tXX{(~!!!!!:.!.%%(!!!!!!!!!X!))!!!!X%``%!!!(>
+               ^X>:x. {!!!!X: ~!!*!{!!!{!~!X!)%!{!!!)?@!!!?!)?!!!>~
+                 `X(!!:!!!{{(!!.)!%(:\!!:%~!~\!t!! `H!)~~!!!!!!(?@
+                  `!X: `)!!!C44XX!!!.%%.X:>-> %!!X! /!~!.'!> !S!!!
+              +{..  \X%\.'{??X!!!t!!~!!{!~!~'.!~~~ -~` {> !~ /!X`
+                `X!XXM!!4!%\(4!!!!%(`,zccccd$$$$$$$$$ccx ` .~
+                  "XLS@!)!!%L44X!!! d$$$$$$$$$$$$$$$$$$$,  '^
+                   `!X?%:!!??X!4?*';$$$$$$$$$$$$$$$$$$$$$
+                  `iXM:!!?Xt!XH!!! 9$$$$$$$$$$$$$$$$$$$$$
+                   `X3tiXS#?WH!X!! $$$$$$$$$$$$$$$$$$$$$$
+                   .MX?*StXX?X!!W? $$$$$$$>?$$$$$$$$$$$$
+                    8??M%T%' r `  ;$$$$$$$$$,?$$$$$$$$$F
+                    'StMX!': J$$d$$$$$$$$$$$$h ?$$$$$$"
+                     tM9MH d$$$$$$$$$$$$$$C???r{$$$F,r
+                     4M?t':$$$$$$$$$$$$$$$$h. $$$,cP"
+                     'M>.d$$$$$$$$$$$$$$$$$>d$$${.,
+                      ,d$$$$$$$$$$$$$$$$$'cd$$$$r"
+                      `$$$$$$$$$$$$$$$??$Jcii`?$h
+                       $$$$$$$$$$$$$F,;;, "?h,`$$h
+                      j$$$$$$$$$$$$$.CC>>>>c`"  `"        ..,g q,
+                   .'!$$$$$$$$$$$$$' `''''''            aq`?g`$.Bk
+               ,- '  "?$$$$$$$$$$$$$$d$$$$$c, .         .)od$$$$$$
+          , -'           `""'   `"?$$$$$$$$$??=      .d$$$$$$$$F'
+        ,'                           `??$$P       .ed$$P""   `
+       ,                                `.      z$$$"
+       `:dbe,                          x,/    e$$F'
+       :$$$$P'`>                       $F  z$$$"
+      d$$$P"'  >                       $Fe$$$"
+    .$$$?F     ;                       $$$$"
+    $$$$$$eeu. >                       >P"
+     `""???$$$$$eu,._''uWb,            )
+               `""??$P$$$$$$b.         :
+                >     ?$$$"'           {
+                F      `"              `:
+                >                       `>
+                >                        ?
+               J                          :
+               X                ..  .     ?
+               "{ 4{!~;/'!>{`~{>~.>! ~! '"
+                '>!>=.%=.;~~>~4~`{'>>>~!
+                 4'!/>!\\!{~~:/{;!{;`;/=':
+                 `=;!~:`~!>{.-; "(>=.':!;'
+                  :;=.~{`;`~>!~> ?!/>>~!!{'
+                  ~:~'!!;`;`~:>); ;(.uJL!~~
+                    >L.(.:,L;L:-+d$$$$$$
+                    :4$$$$$$$L   ?$$#$$$>
+                     '$$$B$$$>    $$$MB$&
+                      $$$$$$$      $$$@$F
+                      `$$$$$$>     R$$$$
+                       $$$$$$     {$$@$P
+                       $R$$$R     `!)=!>
+                       $$$6T       $$$$'
+                       $$R$B      ;$$$F,._
+                       !=!(!    .'        ``= .
+                       $$$$F    (.             '\
+                     ,{$$$$(      ``~'``~~:.._.,)
+                    ;   ``  `-.
+                    (          "\.
+                     ` -{._       ".
+                           `~:,._ .:
+-->
+<html>
+	<head>
+		<title>Mirjana Savic</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body id="top">
 
-    <section class="language">
-      <ul>
-        <li>English</li>
-        <li><a href="index_rs.html">Serbian</a></li>
-      </ul>
-    </section>
+		<!-- Header -->
+			<header id="header">
+				<h1><strong>Mirjana Savic</strong><br />
+				Siempre Tango</h1>
+			</header>
 
-    <section class="intro text-center section-padding" id="intro">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 col-md-offset-2 wp2">
-            <h2>Tango is an art</h2>
-            <p>It's the character in each of us, it's the 'ensemble' of life, reflecting all it's idiosyncrasy.<br />
-            Tango is not a fashion, but an addiction, a drug, and as such, the more you are exposed to it,<br />
-            the more you become an addict.</p>
-          </div>
-        </div>
-      </div>
-    </section>
+		<!-- Main -->
+			<div id="main">
 
-    <section class="text-center" id="responsive">
-      <div class="container-fluid nopadding responsive-services">
-        <div class="wrapper">
-          <div class="iphone">
-            <div class="wp3 animated fadeInDown delay-15s"></div>
-          </div>
-          <div class="fluid-white"></div>
-        </div>
-        <div class="container designs">
-          <div class="row">
-            <div class="col-md-5 col-md-offset-7 delay-1s text-left">
-              <h2>About</h2>
-              <p>Mirjana is a Serbian tango dancer. She discovered the capability of expressing herself, through dancing and music, at her early age. She danced Serbian traditional folklore dances, while her fortuitous encounter with tango in Belgrade, in 2006, was a turning point of the definite continuation of her development as a dancer, in an Argentinian way.</p>
-              <p>In collaboration with Miša Plavšić, the doyen of Serbia’s tango scene, with whom she began exploring this form of art, trained by Andrija Jovanović, dancing instructor in the Aster School of Dance and at seminars with top-notch instructors including Angel Coria, Demian Garcia, Aurora Lubiz, Jorge Firpo, Hugo Daniel, DNI Tango, Alejandra Mantinian, Gachi Fernandez, Natacha Poberaj in Buenos Aires, as well as with Ilias Oikonomou and Mauricio Castro in Hamburg, Mirjana has gained experience and enhanced her skills.</p>
-              <p>According to Mirjana, tango works as adrenalin, which is a product of the communication between the dancing partners, inexhaustible possibilities of improvisation and the concept of the dance, based on the natural flow of movements. Thus far, she has had more than 70 public appearances.</p>
-            </div> 
-          </div>
-        </div>
-      </div>
-    </section>
+				<!-- One -->
+					<section id="one">
+						<header class="major">
+							<h2>Tango is an art</h2>
+						</header>
+						<p>It's the character in each of us, it's the 'ensemble' of life, reflecting all it's idiosyncrasy. Tango is not a fashion, but an addiction, a drug, and as such, the more you are exposed to it, the more you become an addict.</p>
+						<!--<ul class="actions">
+							<li><a href="#" class="button">Learn More</a></li>
+						</ul>-->
+					</section>
 
-    <section class="swag text-center">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 col-md-offset-2">
-            &nbsp;
-          </div>
-        </div>
-      </div>
-    </section>
+				<!-- Two -->
+					<section id="two">
+						<h2>About</h2>
+						<p>Mirjana is a Serbian tango dancer. She discovered the capability of expressing herself, through dancing and music, at her early age. She danced Serbian traditional folklore dances, while her fortuitous encounter with tango in Belgrade, in 2006, was a turning point of the definite continuation of her development as a dancer, in an Argentinian way.
+						<br /><br />
+						In collaboration with Miša Plavšić, the doyen of Serbia’s tango scene, with whom she began exploring this form of art, trained by Andrija Jovanović, dancing instructor in the Aster School of Dance and at seminars with top-notch instructors including Angel Coria, Demian Garcia, Aurora Lubiz, Jorge Firpo, Hugo Daniel, DNI Tango, Alejandra Mantinian, Gachi Fernandez, Natacha Poberaj in Buenos Aires, as well as with Ilias Oikonomou and Mauricio Castro in Hamburg, Mirjana has gained experience and enhanced her skills.
+						<br /><br />
+						According to Mirjana, tango works as adrenalin, which is a product of the communication between the dancing partners, inexhaustible possibilities of improvisation and the concept of the dance, based on the natural flow of movements. Thus far, she has had more than 70 public appearances.</p>
+						<!--<ul class="actions">
+							<li><a href="#" class="button">Learn More</a></li>
+						</ul>-->
+					</section>
 
-    <section class="features text-center section-padding" id="features">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <h2>Latest images</h2>
-            <div class="features-wrapper">
-              <div class="grid">
-                <figure class="effect-lily">
-                  <img src="img/12.jpg" alt="img12"/>
-                  <figcaption>
-                    <div>
-                      <h3>Nice <span>Lily</span></h3>
-                      <p>Lily likes to play with crayons and pencils</p>
-                    </div>
-                    <a href="#">View more</a>
-                  </figcaption>     
-                </figure>
-                <figure class="effect-lily">
-                  <img src="img/1.jpg" alt="img1"/>
-                  <figcaption>
-                    <div>
-                      <h3>Nice <span>Lily</span></h3>
-                      <p>Lily likes to play with crayons and pencils</p>
-                    </div>
-                    <a href="#">View more</a>
-                  </figcaption>     
-                </figure>
-                <figure class="effect-lily">
-                  <img src="img/12.jpg" alt="img12"/>
-                  <figcaption>
-                    <div>
-                      <h3>Nice <span>Lily</span></h3>
-                      <p>Lily likes to play with crayons and pencils</p>
-                    </div>
-                    <a href="#">View more</a>
-                  </figcaption>     
-                </figure>
-                <figure class="effect-lily">
-                  <img src="img/1.jpg" alt="img1"/>
-                  <figcaption>
-                    <div>
-                      <h3>Nice <span>Lily</span></h3>
-                      <p>Lily likes to play with crayons and pencils</p>
-                    </div>
-                    <a href="#">View more</a>
-                  </figcaption>     
-                </figure>
-                <figure class="effect-lily">
-                  <img src="img/12.jpg" alt="img12"/>
-                  <figcaption>
-                    <div>
-                      <h3>Nice <span>Lily</span></h3>
-                      <p>Lily likes to play with crayons and pencils</p>
-                    </div>
-                    <a href="#">View more</a>
-                  </figcaption>     
-                </figure>
-                <figure class="effect-lily">
-                  <img src="img/1.jpg" alt="img1"/>
-                  <figcaption>
-                    <div>
-                      <h3>Nice <span>Lily</span></h3>
-                      <p>Lily likes to play with crayons and pencils</p>
-                    </div>
-                    <a href="#">View more</a>
-                  </figcaption>     
-                </figure>
-              </div>
-              <div class="clearfix"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+				<!-- Three -->
+					<section id="three">
+						<h2>Latest images</h2>
+						<div class="row">
+							<article class="6u 12u$(xsmall) work-item">
+								<a href="images/fulls/001.jpg" class="image fit thumb"><img src="images/thumbs/001.jpg" alt="" /></a>
+								<!-- <h3>Magna sed consequat tempus</h3>
+								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p> -->
+							</article>
+							<article class="6u$ 12u$(xsmall) work-item">
+								<a href="images/fulls/002.jpg" class="image fit thumb"><img src="images/thumbs/002.jpg" alt="" /></a>
+								<!-- <h3>Ultricies lacinia interdum</h3>
+								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p> -->
+							</article>
+							<article class="6u 12u$(xsmall) work-item">
+								<a href="images/fulls/003.jpg" class="image fit thumb"><img src="images/thumbs/003.jpg" alt="" /></a>
+								<!-- <h3>Tortor metus commodo</h3>
+								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p> -->
+							</article>
+							<article class="6u$ 12u$(xsmall) work-item">
+								<a href="images/fulls/004.jpg" class="image fit thumb"><img src="images/thumbs/004.jpg" alt="" /></a>
+								<!-- <h3>Quam neque phasellus</h3>
+								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p> -->
+							</article>
+							<article class="6u 12u$(xsmall) work-item">
+								<a href="images/fulls/005.jpg" class="image fit thumb"><img src="images/thumbs/005.jpg" alt="" /></a>
+								<!-- <h3>Nunc enim commodo aliquet</h3>
+								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p> -->
+							</article>
+							<article class="6u$ 12u$(xsmall) work-item">
+								<a href="images/fulls/006.jpg" class="image fit thumb"><img src="images/thumbs/006.jpg" alt="" /></a>
+								<!-- <h3>Risus ornare lacinia</h3>
+								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p> -->
+							</article>
+							<article class="6u 12u$(xsmall) work-item">
+								<a href="images/fulls/007.jpg" class="image fit thumb"><img src="images/thumbs/007.jpg" alt="" /></a>
+								<!-- <h3>Nunc enim commodo aliquet</h3>
+								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p> -->
+							</article>
+							<article class="6u$ 12u$(xsmall) work-item">
+								<a href="images/fulls/009.jpg" class="image fit thumb"><img src="images/thumbs/009.jpg" alt="" /></a>
+								<!-- <h3>Risus ornare lacinia</h3>
+								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p> -->
+							</article>
+						</div>
+						<!-- <ul class="actions">
+							<li><a href="#" class="button">Full Portfolio</a></li>
+						</ul> -->
+					</section>
 
-    <section class="swag text-center">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 col-md-offset-2">
-            &nbsp;
-          </div>
-        </div>
-      </div>
-    </section>
+				<!-- Four -->
+					<section id="four">
+						<h2>References</h2>
+						<div class="row">
+							<div class="6u 12u$(small)">
+								<ul class="references">
+									<h3>2015</h3>
+									<li>Jewish Community Belgrade <small>Concert Libercuatro, Belgrade</small></li>
+									<li>International Dance Day <small>Music School, <em>"Sava Jovanović Sirogojno",</em> Concert Libercuatro, Belgrade</small></li>
+									<li>International Dance Day <small>Primary School, <em>"Sava Jovanović Sirogojno",</em> Zemun</small></li>
+									<li>Recording Videos, Sonja Daša duo <small>Pub <em>Tako je suđeno</em> Belgrade</small></li>
+									<li>Microblading Commercial <small>Belgrade</small></li>
+									<li>Coordination of the Second MIKSER tango festival <small>Belgrade</small></li>
+									<h3>2014</h3>
+									<li>Miško Plavi trio, Mikser House <small>Belgrade</small></li>
+									<li>TV Kopernikus, "Šampanjac" <small>Belgrade</small></li>
+									<li>Weekly magazine "Blic žena", interview <small>Belgrade</small></li>
+									<li>19 years of Army dance <small>School of Dance, Belgrade</small></li>
+									<li>Coordination of the First MIKSER HOUSE tango festival <small>Belgrade</small></li>
+									<li>Ball of Russian Serbian Friendship, February 23rd, Men's day <small>Belgrade</small></li>
+									<li>Ball of Russian Serbian Friendship, March 8th, Women's Day <small>Belgrade</small></li>
+									<li>TV RTS 1, Žikina šarenica, Quartet Libercuatro <small>Belgrade</small></li>
+									<li>The Vines Studio Šapat <small>Slankamen</small></li>
+									<li>Promotion of the book "Tango u srcu grada", Aleksandra Antić <small>Belgrade</small></li>
+									<li>Graffina Centenario Malbec wine promotion <small>The residence of Argentine Ambassador, Belgrade</small></li>
+									<li>Cultural Artistic Association "Abrasevic" public class <small>UK Vuk Karadžić, Belgrade</small></li>
+									<li>46. Kalemegdanski sutoni Muzičke omladine <small>Belgrade</small></li>
+									<li>Wedding Day <small>Milošev konak restaurant, Belgrade</small></li>
+									<li>Che Guevara, death anniversary <small>UK Vuk Karadžić, Belgrade</small></li>
+									<li>The movie scene "Bićemo prvaci sveta" directed by Darko Bajic <small>Belgrade</small></li>
+									<li>Promotion of the book "Poslednji tango u Kraljevu" <small>Jasmina Ana, Belgrade</small></li>
+									<li>15 Tango Years in Serbia <small>Mikser House, Belgrade</small></li>
+									<li>TV Sky plus "Za Beograd" <small>Belgrade</small></li>
+									<h3>2013</h3>
+									<li>TV RTS 2, family magazine "Sve boje života" <small>Belgrade</small></li>
+									<li>Ceremonial Ball of Russian Serbian Friendship <small>Hotel Moskva, Belgrade</small></li>
+									<li>Serbian Belarus friendship evening <small>Admiral Hotel, Belgrade</small></li>
+									<li>Festival "The World in Belgrade" <small>25 May museum, Belgrade</small></li>
+									<li>SKC Novi Beograd <small>Beogradska politehnika</small></li>
+									<li>Volleyball match Serbia &amp; Germany <small>Hala Pionir, Belgrade</small></li>
+									<li>Dan borca, 4th of July 2013 <small>Bojčinska šuma, Surčin</small></li>
+									<li>World Grand Prix, volleyball Serbia &amp; Netherlands <small>Hala Pionir, Belgrade</small></li>
+									<li>"Smederevska jesen" manifestation <small>Smederevo</small></li>
+									<li>"Putospektiva - Argentina" <small>Cultural Center REX, Belgrade</small></li>
+									<li>Gudači sv. Đorđa, concert <small>Kolarac, Belgrade</small></li>
+									<h3>2012</h3>
+									<li>"Emocije u pokretu" <small>Eldorado club, Belgrade</small></li>
+									<li>80 years since the birth of Mika Antić <small>Primary School Kralj Petar I, Belgrade</small></li>
+									<li>Night of Museums <small>Belgrade</small></li>
+									<li>VI autumn Aqua Viva Health festival <small>Belgrade</small></li>
+									<li>200th anniversary of the Battle of Borodino, Charity Ball <small>Ruski dom, Belgrade</small></li>
+									<li>Dance evening dedicated to the 30's, the topic of Montevideo <small>Dom vojske, Belgrade</small></li>
+									<li>New Year's Eve show, TV Banat <small>Vršac</small></li>
+									<li>Instituto Cervantes, Belef <small>Belgrade</small></li>
+								</ul>
+							</div>
+							<div class="6u 12u$(small)">
+								<ul class="references">
+									<h3>2011</h3>
+									<li>Serbian Association of Cinematographers, Test shoot for Sony <small>Belgrade</small></li>
+									<li>Festival of Choreographic Miniatures <small>National Theatre, Belgrade</small></li>
+									<li>"Svet baleta", TV Avala <small>Belgrade</small></li>
+									<li>Promotion of the magazine "VipTrip" <small>Airport city, Belgrade</small></li>
+									<li>Volleyball match Serbia-France <small>Hala Pionir, Belgrade</small></li>
+									<li>"Popodne u 3", TV Kopernikus <small>Belgrade</small></li>
+									<li>Opening of the SAPO photo exhibition <small>Municipality Vračar, Belgrade</small></li>
+									<li>Promotion of the Almanac "Darling Saveta" <small>Club Brankow, Belgrade</small></li>
+									<li>National Championship <small>Belgrade</small></li>
+									<h3>2010</h3>
+									<li>Svetosavski Ball <small>Dom vojske, Belgrade</small></li>
+									<li>"Žikina šarenica", TV RTS 1 <small>Belgrade</small></li>
+									<li>Fair of tourism <small>Belgrade</small></li>
+									<li>Purim Ball <small>Sukkat Shalom Synagogue, Belgrade</small></li>
+									<li>"Još uvek budni (sa Ivon)", TV Studio B <small>Belgrade</small></li>
+									<li>Tango maraton <small>Port of Belgrade</small></li>
+									<li>"Dance to the Stars" <small>Kraljevo</small></li>
+									<li>Telenor, anniversary party <small>Baranda</small></li>
+									<li>Opening of the spa center "Lago di spa" <small>Belgrade</small></li>
+									<li>Volleyball match Argentina <small>Serbia, Belgrade Arena</small></li>
+									<li>Balkan Salsa Congress <small>Borovets, Bulgaria</small></li>
+									<li>Salsa Motion Weekend 4 <small>UK Vuk Karadžić, Belgrade</small></li>
+									<li>Rambo Amadeus concert <small>Dom sindikata, Belgrad</small></li>
+									<h3>2009</h3>
+									<li>"Serbian jet set secrets II", book promotion <small>Admiral Hotel, Belgrade</small></li>
+									<li>St. Valentine’s day <small>Life &amp; design Hotel, Belgrade</small></li>
+									<li>Fair of tourism <small>Belgrade</small></li>
+									<li>"Pretres", TV Kopernikus, months-long engagement <small>Belgrade</small></li>
+									<li>Promotion of the magazine "Isidora's women side" <small>Bahus, Belgrade</small></li>
+									<li>"U trendu", TV Pink <small>Belgrade</small></li>
+									<li>Tango OPEN <small>Poseydon, Belgrade</small></li>
+									<li>"Klot frket" TV BN <small>Bosnia and Herzegovina</small></li>
+									<li>Universiade <small>Belgrade</small></li>
+									<li>Belgrade Dance Festival <small>Sava Centar, Belgrade</small></li>
+									<li>World tango dance tournament <small>Buenos Aires, Argentina</small></li>
+									<li>Katarina Radovic's photography exhibition <small>Dom omladine, Belgrade</small></li>
+									<h3>2008</h3>
+									<li>"Supertempo", SOS TV <small>Belgrade</small></li>
+									<li>Dance show, organization of "Stari dif" school <small>Belgrade</small></li>
+									<li>National Championship <small>Poseydon, Belgrade</small></li>
+									<h3>2007</h3>
+									<li>Amadeus  School of Dance, performance <small>TC Merkator, Belgrade</small></li>
+									<li>"The sense of movement," <small>TV Metropolis, Belgrade</small></li>
+								</ul>
+							</div>
+				        </div>
+					</section>
 
-    <section class="text-center section-padding">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <h2>References</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-6">
-            <ul class="references">
-              <li><h3>2014</h3></li>
-              <li>Coordination of the First MIKSER HOUSE tango festival <small>Belgrade</small></li>
-              <li>Ball of Russian Serbian Friendship, February 23rd, Men's day <small>Belgrade</small></li>
-              <li>Ball of Russian Serbian Friendship, March 8th, Women's Day <small>Belgrade</small></li>
-              <li>TV RTS 1, Žikina šarenica, Quartet Libercuatro <small>Belgrade</small></li>
-              <li>The Vines Studio Šapat <small>Slankamen</small></li>
-              <li>Promotion of the book "Tango u srcu grada", Aleksandra Antić <small>Belgrade</small></li>
-              <li>Graffina Centenario Malbec wine promotion <small>The residence of Argentine Ambassador, Belgrade</small></li>
-              <li>Cultural Artistic Association "Abrasevic" public class <small>UK Vuk Karadžić, Belgrade</small></li>
-              <li>46. Kalemegdanski sutoni Muzičke omladine <small>Belgrade</small></li>
-              <li>Wedding Day <small>Milošev konak restaurant, Belgrade</small></li>
-              <li>Che Guevara, death anniversary <small>UK Vuk Karadžić, Belgrade</small></li>
-              <li>The movie scene "Bićemo prvaci sveta" directed by Darko Bajic <small>Belgrade</small></li>
-              <li>Promotion of the book "Poslednji tango u Kraljevu" <small>Jasmina Ana, Belgrade</small></li>
-              <li>15 Tango Years in Serbia <small>Mikser House, Belgrade</small></li>
-              <li>TV Sky plus "Za Beograd" <small>Belgrade</small></li>
-              <li><h3>2013</h3></li>
-              <li>TV RTS 2, family magazine "Sve boje života" <small>Belgrade</small></li>
-              <li>Ceremonial Ball of Russian Serbian Friendship <small>Hotel Moskva, Belgrade</small></li>
-              <li>Serbian Belarus friendship evening <small>Admiral Hotel, Belgrade</small></li>
-              <li>Festival "The World in Belgrade" <small>25 May museum, Belgrade</small></li>
-              <li>SKC Novi Beograd <small>Beogradska politehnika</small></li>
-              <li>Volleyball match Serbia &amp; Germany <small>Hala Pionir, Belgrade</small></li>
-              <li>Dan borca, 4th of July 2013 <small>Bojčinska šuma, Surčin</small></li>
-              <li>World Grand Prix, volleyball Serbia &amp; Netherlands <small>Hala Pionir, Belgrade</small></li>
-              <li>"Smederevska jesen" manifestation <small>Smederevo</small></li>
-              <li>"Putospektiva - Argentina" <small>Cultural Center REX, Belgrade</small></li>
-              <li>Gudači sv. Đorđa, concert <small>Kolarac, Belgrade</small></li>
-              <li><h3>2012</h3></li>
-              <li>"Emocije u pokretu" <small>Eldorado club, Belgrade</small></li>
-              <li>80 years since the birth of Mika Antić <small>Primary School Kralj Petar I, Belgrade</small></li>
-              <li>Night of Museums <small>Belgrade</small></li>
-              <li>VI autumn Aqua Viva Health festival <small>Belgrade</small></li>
-              <li>200th anniversary of the Battle of Borodino, Charity Ball <small>Ruski dom, Belgrade</small></li>
-              <li>Dance evening dedicated to the 30's, the topic of Montevideo <small>Dom vojske, Belgrade</small></li>
-              <li>New Year's Eve show, TV Banat <small>Vršac</small></li>
-              <li>Instituto Cervantes, Belef <small>Belgrade</small></li>
-            </ul>
-          </div>
-          <div class="col-md-6">
-            <ul class="references">
-              <li><h3>2011</h3></li>
-              <li>Serbian Association of Cinematographers, Test shoot for Sony <small>Belgrade</small></li>
-              <li>Festival of Choreographic Miniatures <small>National Theatre, Belgrade</small></li>
-              <li>"Svet baleta", TV Avala <small>Belgrade</small></li>
-              <li>Promotion of the magazine "VipTrip" <small>Airport city, Belgrade</small></li>
-              <li>Volleyball match Serbia-France <small>Hala Pionir, Belgrade</small></li>
-              <li>"Popodne u 3", TV Kopernikus <small>Belgrade</small></li>
-              <li>Opening of the SAPO photo exhibition <small>Municipality Vračar, Belgrade</small></li>
-              <li>Promotion of the Almanac "Darling Saveta" <small>Club Brankow, Belgrade</small></li>
-              <li>National Championship <small>Belgrade</small></li>
-              <li><h3>2010</h3></li>
-              <li>Svetosavski Ball <small>Dom vojske, Belgrade</small></li>
-              <li>"Žikina šarenica", TV RTS 1 <small>Belgrade</small></li>
-              <li>Fair of tourism <small>Belgrade</small></li>
-              <li>Purim Ball <small>Sukkat Shalom Synagogue, Belgrade</small></li>
-              <li>"Još uvek budni (sa Ivon)", TV Studio B <small>Belgrade</small></li>
-              <li>Tango maraton <small>Port of Belgrade</small></li>
-              <li>"Dance to the Stars" <small>Kraljevo</small></li>
-              <li>Telenor, anniversary party <small>Baranda</small></li>
-              <li>Opening of the spa center "Lago di spa" <small>Belgrade</small></li>
-              <li>Volleyball match Argentina <small>Serbia, Belgrade Arena</small></li>
-              <li>Balkan Salsa Congress <small>Borovets, Bulgaria</small></li>
-              <li>Salsa Motion Weekend 4 <small>UK Vuk Karadžić, Belgrade</small></li>
-              <li>Rambo Amadeus concert <small>Dom sindikata, Belgrad</small></li>
-              <li><h3>2009</h3></li>
-              <li>"Serbian jet set secrets II", book promotion <small>Admiral Hotel, Belgrade</small></li>
-              <li>St. Valentine’s day <small>Life &amp; design Hotel, Belgrade</small></li>
-              <li>Fair of tourism <small>Belgrade</small></li>
-              <li>"Pretres", TV Kopernikus, months-long engagement <small>Belgrade</small></li>
-              <li>Promotion of the magazine "Isidora's women side" <small>Bahus, Belgrade</small></li>
-              <li>"U trendu", TV Pink <small>Belgrade</small></li>
-              <li>Tango OPEN <small>Poseydon, Belgrade</small></li>
-              <li>"Klot frket" TV BN <small>Bosnia and Herzegovina</small></li>
-              <li>Universiade <small>Belgrade</small></li>
-              <li>Belgrade Dance Festival <small>Sava Centar, Belgrade</small></li>
-              <li>World tango dance tournament <small>Buenos Aires, Argentina</small></li>
-              <li>Katarina Radovic's photography exhibition <small>Dom omladine, Belgrade</small></li>
-              <li><h3>2008</h3></li>
-              <li>"Supertempo", SOS TV <small>Belgrade</small></li>
-              <li>Dance show, organization of "Stari dif" school <small>Belgrade</small></li>
-              <li>National Championship <small>Poseydon, Belgrade</small></li>
-              <li><h3>2007</h3></li>
-              <li>Amadeus  School of Dance, performance <small>TC Merkator, Belgrade</small></li>
-              <li>"The sense of movement," <small>TV Metropolis, Belgrade</small></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
+				<!-- Five -->
+					<section id="five">
+						<h2>Videos</h2>
+						<div class="row">
+							<article class="6u 12u$(xsmall) work-item">
+								<a href="https://youtu.be/hODai5ked2U" data-poptrox="youtube,800x445" class="image fit thumb"><img src="images/thumbs/vid-1.jpg" alt="" /></a>
+								<h3>Sonja Kalajić &amp; Daša Ilić</h3>
+								<p>Marron y azul</p>
+							</article>
+							<article class="6u$ 12u$(xsmall) work-item">
+								<a href="https://youtu.be/tWgsEUW40iA" data-poptrox="youtube,800x445" class="image fit thumb"><img src="images/thumbs/vid-2.jpg" alt="" /></a>
+								<h3>Sonja Kalajić &amp; Daša Ilić</h3>
+								<p>Chau Paris</p>
+							</article>
+							<article class="6u 12u$(xsmall) work-item">
+								<a href="https://youtu.be/x__CTz_VWII" data-poptrox="youtube,800x445" class="image fit thumb"><img src="images/thumbs/vid-3.jpg" alt="" /></a>
+								<h3>Angel Coria and Mirjana Savić</h3>
+								<p>Improvisation</p>
+							</article>
+						</div>
+					</section>
 
-    <section class="subscribe"></section>
+				<!-- Six -->
+					<section id="six">
+						<h2>Get In Touch</h2>
+						<!-- <p>Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor.</p> -->
+						<div class="row">
+							<div class="12u 12u$(small)">
+								<form method="post" action="#">
+									<div class="row uniform 50%">
+										<div class="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Name" /></div>
+										<div class="6u$ 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Email" /></div>
+										<div class="12u$"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
+									</div>
+								</form>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</div>
+							<!-- <div class="4u$ 12u$(small)">
+								<ul class="labeled-icons">
+									<li>
+										<h3 class="icon fa-home"><span class="label">Address</span></h3>
+										1234 Somewhere Rd.<br />
+										Nashville, TN 00000<br />
+										United States
+									</li>
+									<li>
+										<h3 class="icon fa-mobile"><span class="label">Phone</span></h3>
+										000-000-0000
+									</li>
+									<li>
+										<h3 class="icon fa-envelope-o"><span class="label">Email</span></h3>
+										<a href="#">hello@untitled.tld</a>
+									</li>
+								</ul>
+							</div> -->
+						</div>
+					</section>
 
-     <section class="text-center section-padding">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <h2>Videos</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-10 col-md-offset-1">
+				<!-- Four -->
+				<!--
+					<section id="four">
+						<h2>Elements</h2>
 
-            <div class="morph-button morph-button-modal morph-button-modal-2 morph-button-fixed">
-              <button type="button">Angel Coria and Mirjana Savić, Improvisation</button>
-              <div class="morph-content">
-                <div>
-                  <div class="content-style-form content-style-form-1">
-                    <span class="icon-close"><i class="fa fa-close"></i> Close</span>
-                    <iframe width="680" height="480" src="http://www.youtube.com/embed/YfnjbGZcey0" frameborder="0" allowfullscreen></iframe>
-                  </div>
-                </div>
-              </div>
-            </div>
+						<section>
+							<h4>Text</h4>
+							<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
+							This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+							This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
+							<hr />
+							<header>
+								<h4>Heading with a Subtitle</h4>
+								<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+							</header>
+							<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+							<header>
+								<h5>Heading with a Subtitle</h5>
+								<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+							</header>
+							<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+							<hr />
+							<h2>Heading Level 2</h2>
+							<h3>Heading Level 3</h3>
+							<h4>Heading Level 4</h4>
+							<h5>Heading Level 5</h5>
+							<h6>Heading Level 6</h6>
+							<hr />
+							<h5>Blockquote</h5>
+							<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
+							<h5>Preformatted</h5>
+							<pre><code>i = 0;
 
-            <!--<div class="morph-button morph-button-modal morph-button-modal-2 morph-button-fixed">
-              <button type="button">Angel Coria and Mirjana Savić, Improvisation</button>
-              <div class="morph-content">
-                <div>
-                  <div class="content-style-form content-style-form-1">
-                    <span class="icon-close">Close the dialog</span>
-                    <iframe width="680" height="480" src="http://www.youtube.com/embed/YfnjbGZcey0" frameborder="0" allowfullscreen></iframe>
-                  </div>
-                </div>
-              </div>
-            </div>-->
-          
-          </div>
-        </div>
-      </div>
-    </section>
+while (!deck.isInOrder()) {
+print 'Iteration ' + i;
+deck.shuffle();
+i++;
+}
 
+print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+						</section>
 
-    <section class="subscribe"></section>
+						<section>
+							<h4>Lists</h4>
+							<div class="row">
+								<div class="6u 12u$(xsmall)">
+									<h5>Unordered</h5>
+									<ul>
+										<li>Dolor pulvinar etiam magna etiam.</li>
+										<li>Sagittis adipiscing lorem eleifend.</li>
+										<li>Felis enim feugiat dolore viverra.</li>
+									</ul>
+									<h5>Alternate</h5>
+									<ul class="alt">
+										<li>Dolor pulvinar etiam magna etiam.</li>
+										<li>Sagittis adipiscing lorem eleifend.</li>
+										<li>Felis enim feugiat dolore viverra.</li>
+									</ul>
+								</div>
+								<div class="6u$ 12u$(xsmall)">
+									<h5>Ordered</h5>
+									<ol>
+										<li>Dolor pulvinar etiam magna etiam.</li>
+										<li>Etiam vel felis at lorem sed viverra.</li>
+										<li>Felis enim feugiat dolore viverra.</li>
+										<li>Dolor pulvinar etiam magna etiam.</li>
+										<li>Etiam vel felis at lorem sed viverra.</li>
+										<li>Felis enim feugiat dolore viverra.</li>
+									</ol>
+									<h5>Icons</h5>
+									<ul class="icons">
+										<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+										<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+										<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+										<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
+										<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+										<li><a href="#" class="icon fa-tumblr"><span class="label">Tumblr</span></a></li>
+									</ul>
+								</div>
+							</div>
+							<h5>Actions</h5>
+							<ul class="actions">
+								<li><a href="#" class="button special">Default</a></li>
+								<li><a href="#" class="button">Default</a></li>
+							</ul>
+							<ul class="actions small">
+								<li><a href="#" class="button special small">Small</a></li>
+								<li><a href="#" class="button small">Small</a></li>
+							</ul>
+							<div class="row">
+								<div class="6u 12u$(small)">
+									<ul class="actions vertical">
+										<li><a href="#" class="button special">Default</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+								</div>
+								<div class="6u$ 12u$(small)">
+									<ul class="actions vertical small">
+										<li><a href="#" class="button special small">Small</a></li>
+										<li><a href="#" class="button small">Small</a></li>
+									</ul>
+								</div>
+								<div class="6u 12u$(small)">
+									<ul class="actions vertical">
+										<li><a href="#" class="button special fit">Default</a></li>
+										<li><a href="#" class="button fit">Default</a></li>
+									</ul>
+								</div>
+								<div class="6u$ 12u$(small)">
+									<ul class="actions vertical small">
+										<li><a href="#" class="button special small fit">Small</a></li>
+										<li><a href="#" class="button small fit">Small</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
 
-    <section class="features text-center section-padding" id="features">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <h2>Get in touch</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-6 col-md-offset-3">
-            <form action="form.php" method="post" enctype="multipart/form-data">
+						<section>
+							<h4>Table</h4>
+							<h5>Default</h5>
+							<div class="table-wrapper">
+								<table>
+									<thead>
+										<tr>
+											<th>Name</th>
+											<th>Description</th>
+											<th>Price</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>Item One</td>
+											<td>Ante turpis integer aliquet porttitor.</td>
+											<td>29.99</td>
+										</tr>
+										<tr>
+											<td>Item Two</td>
+											<td>Vis ac commodo adipiscing arcu aliquet.</td>
+											<td>19.99</td>
+										</tr>
+										<tr>
+											<td>Item Three</td>
+											<td> Morbi faucibus arcu accumsan lorem.</td>
+											<td>29.99</td>
+										</tr>
+										<tr>
+											<td>Item Four</td>
+											<td>Vitae integer tempus condimentum.</td>
+											<td>19.99</td>
+										</tr>
+										<tr>
+											<td>Item Five</td>
+											<td>Ante turpis integer aliquet porttitor.</td>
+											<td>29.99</td>
+										</tr>
+									</tbody>
+									<tfoot>
+										<tr>
+											<td colspan="2"></td>
+											<td>100.00</td>
+										</tr>
+									</tfoot>
+								</table>
+							</div>
 
-              <label></label>
-              <input name="name" required="required" placeholder="Your Name">
+							<h5>Alternate</h5>
+							<div class="table-wrapper">
+								<table class="alt">
+									<thead>
+										<tr>
+											<th>Name</th>
+											<th>Description</th>
+											<th>Price</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>Item One</td>
+											<td>Ante turpis integer aliquet porttitor.</td>
+											<td>29.99</td>
+										</tr>
+										<tr>
+											<td>Item Two</td>
+											<td>Vis ac commodo adipiscing arcu aliquet.</td>
+											<td>19.99</td>
+										</tr>
+										<tr>
+											<td>Item Three</td>
+											<td> Morbi faucibus arcu accumsan lorem.</td>
+											<td>29.99</td>
+										</tr>
+										<tr>
+											<td>Item Four</td>
+											<td>Vitae integer tempus condimentum.</td>
+											<td>19.99</td>
+										</tr>
+										<tr>
+											<td>Item Five</td>
+											<td>Ante turpis integer aliquet porttitor.</td>
+											<td>29.99</td>
+										</tr>
+									</tbody>
+									<tfoot>
+										<tr>
+											<td colspan="2"></td>
+											<td>100.00</td>
+										</tr>
+									</tfoot>
+								</table>
+							</div>
+						</section>
 
-              <label></label>
-              <input name="email" type="email" required="required" placeholder="Your Email">
+						<section>
+							<h4>Buttons</h4>
+							<ul class="actions">
+								<li><a href="#" class="button special">Special</a></li>
+								<li><a href="#" class="button">Default</a></li>
+							</ul>
+							<ul class="actions">
+								<li><a href="#" class="button big">Big</a></li>
+								<li><a href="#" class="button">Default</a></li>
+								<li><a href="#" class="button small">Small</a></li>
+							</ul>
+							<ul class="actions fit">
+								<li><a href="#" class="button special fit">Fit</a></li>
+								<li><a href="#" class="button fit">Fit</a></li>
+							</ul>
+							<ul class="actions fit small">
+								<li><a href="#" class="button special fit small">Fit + Small</a></li>
+								<li><a href="#" class="button fit small">Fit + Small</a></li>
+							</ul>
+							<ul class="actions">
+								<li><a href="#" class="button special icon fa-download">Icon</a></li>
+								<li><a href="#" class="button icon fa-download">Icon</a></li>
+							</ul>
+							<ul class="actions">
+								<li><span class="button special disabled">Special</span></li>
+								<li><span class="button disabled">Default</span></li>
+							</ul>
+						</section>
 
-              <label></label>
-              <textarea name="message" cols="20" rows="5" required="required" placeholder="Message"></textarea>
+						<section>
+							<h4>Form</h4>
+							<form method="post" action="#">
+								<div class="row uniform 50%">
+									<div class="6u 12u$(xsmall)">
+										<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
+									</div>
+									<div class="6u$ 12u$(xsmall)">
+										<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
+									</div>
+									<div class="12u$">
+										<div class="select-wrapper">
+											<select name="demo-category" id="demo-category">
+												<option value="">- Category -</option>
+												<option value="1">Manufacturing</option>
+												<option value="1">Shipping</option>
+												<option value="1">Administration</option>
+												<option value="1">Human Resources</option>
+											</select>
+										</div>
+									</div>
+									<div class="4u 12u$(small)">
+										<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+										<label for="demo-priority-low">Low Priority</label>
+									</div>
+									<div class="4u 12u$(small)">
+										<input type="radio" id="demo-priority-normal" name="demo-priority">
+										<label for="demo-priority-normal">Normal Priority</label>
+									</div>
+									<div class="4u$ 12u(small)">
+										<input type="radio" id="demo-priority-high" name="demo-priority">
+										<label for="demo-priority-high">High Priority</label>
+									</div>
+									<div class="6u 12u$(small)">
+										<input type="checkbox" id="demo-copy" name="demo-copy">
+										<label for="demo-copy">Email me a copy of this message</label>
+									</div>
+									<div class="6u$ 12u$(small)">
+										<input type="checkbox" id="demo-human" name="demo-human" checked>
+										<label for="demo-human">I am a human and not a robot</label>
+									</div>
+									<div class="12u$">
+										<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+									</div>
+									<div class="12u$">
+										<ul class="actions">
+											<li><input type="submit" value="Send Message" class="special" /></li>
+											<li><input type="reset" value="Reset" /></li>
+										</ul>
+									</div>
+								</div>
+							</form>
+						</section>
 
-              <input id="submit" name="submit" type="submit" value="Submit" />
+						<section>
+							<h4>Image</h4>
+							<h5>Fit</h5>
+							<div class="box alt">
+								<div class="row 50% uniform">
+									<div class="12u$"><span class="image fit"><img src="images/fulls/05.jpg" alt="" /></span></div>
+									<div class="4u"><span class="image fit"><img src="images/thumbs/01.jpg" alt="" /></span></div>
+									<div class="4u"><span class="image fit"><img src="images/thumbs/02.jpg" alt="" /></span></div>
+									<div class="4u$"><span class="image fit"><img src="images/thumbs/03.jpg" alt="" /></span></div>
+									<div class="4u"><span class="image fit"><img src="images/thumbs/04.jpg" alt="" /></span></div>
+									<div class="4u"><span class="image fit"><img src="images/thumbs/05.jpg" alt="" /></span></div>
+									<div class="4u$"><span class="image fit"><img src="images/thumbs/06.jpg" alt="" /></span></div>
+									<div class="4u"><span class="image fit"><img src="images/thumbs/03.jpg" alt="" /></span></div>
+									<div class="4u"><span class="image fit"><img src="images/thumbs/02.jpg" alt="" /></span></div>
+									<div class="4u$"><span class="image fit"><img src="images/thumbs/01.jpg" alt="" /></span></div>
+								</div>
+							</div>
+							<h5>Left &amp; Right</h5>
+							<p><span class="image left"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+							<p><span class="image right"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+						</section>
 
-            </form>
-          </div>
-        </div>
-      </div>
-    </section>
+					</section>
+				-->
 
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            <p>Copyright mirjanasavic.com &copy; 2015</p>
-          </div>
-          <div class="col-md-6 credit">
-            <p><a href="https://www.behance.net/giantsheep"><em>Aaron Williams</em></a></p>
-          </div>
-        </div>
-      </div>
-    </footer>
+			</div>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/waypoints.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
-    <script src="js/jquery.flexslider.js"></script>
-    <script src="js/modernizr.custom.js"></script>
-    <script src="js/classie.js"></script>
-    <script src="js/uiMorphingButton_fixed.js"></script>
-    <script>
-      (function() {
-        var docElem = window.document.documentElement, didScroll, scrollPosition;
+		<!-- Footer -->
+			<footer id="footer">
+				<!-- <ul class="icons">
+					<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+					<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
+					<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+					<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+				</ul> -->
+				<ul class="copyright">
+					<li>&copy; mirjanasavic.com</li>
+				</ul>
+			</footer>
 
-        // trick to prevent scrolling when opening/closing button
-        function noScrollFn() {
-          window.scrollTo( scrollPosition ? scrollPosition.x : 0, scrollPosition ? scrollPosition.y : 0 );
-        }
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
 
-        function noScroll() {
-          window.removeEventListener( 'scroll', scrollHandler );
-          window.addEventListener( 'scroll', noScrollFn );
-        }
-
-        function scrollFn() {
-          window.addEventListener( 'scroll', scrollHandler );
-        }
-
-        function canScroll() {
-          window.removeEventListener( 'scroll', noScrollFn );
-          scrollFn();
-        }
-
-        function scrollHandler() {
-          if( !didScroll ) {
-            didScroll = true;
-            setTimeout( function() { scrollPage(); }, 60 );
-          }
-        };
-
-        function scrollPage() {
-          scrollPosition = { x : window.pageXOffset || docElem.scrollLeft, y : window.pageYOffset || docElem.scrollTop };
-          didScroll = false;
-        };
-
-        scrollFn();
-
-        [].slice.call( document.querySelectorAll( '.morph-button' ) ).forEach( function( bttn ) {
-          new UIMorphingButton( bttn, {
-            closeEl : '.icon-close',
-            onBeforeOpen : function() {
-              // don't allow to scroll
-              noScroll();
-            },
-            onAfterOpen : function() {
-              // can scroll again
-              canScroll();
-            },
-            onBeforeClose : function() {
-              // don't allow to scroll
-              noScroll();
-            },
-            onAfterClose : function() {
-              // can scroll again
-              canScroll();
-            }
-          } );
-        } );
-
-        // for demo purposes only
-        [].slice.call( document.querySelectorAll( 'form button' ) ).forEach( function( bttn ) { 
-          bttn.addEventListener( 'click', function( ev ) { ev.preventDefault(); } );
-        } );
-      })();
-    </script>
-  </body>
+	</body>
 </html>
