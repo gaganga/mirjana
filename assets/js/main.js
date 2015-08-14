@@ -12,7 +12,7 @@
 			parallax: true,
 
 		// Parallax factor (lower = more intense, higher = less intense).
-			parallaxFactor: 20
+			parallaxFactor: 30
 
 	};
 
@@ -99,7 +99,26 @@
 			// Lightbox gallery.
 				$window.on('load', function() {
 
-					$('#two').poptrox({
+					$('#three').poptrox({
+						caption: function($a) { return $a.next('h3').text(); },
+						overlayColor: '#2c2c2c',
+						overlayOpacity: 0.85,
+						popupCloserText: '',
+						popupLoaderText: '',
+						selector: '.work-item a.image',
+						usePopupCaption: true,
+						usePopupDefaultStyling: false,
+						usePopupEasyClose: false,
+						usePopupNav: true,
+						windowMargin: (skel.breakpoint('small').active ? 0 : 50)
+					});
+
+				});
+
+				// Lightbox video gallery.
+				$window.on('load', function() {
+
+					$('#five').poptrox({
 						caption: function($a) { return $a.next('h3').text(); },
 						overlayColor: '#2c2c2c',
 						overlayOpacity: 0.85,
